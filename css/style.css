@@ -1,11 +1,6 @@
-/*
-font weights: 300, 400, 700, 900
-*/
-
 body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin: 0;
     padding: 0;
 }
 
@@ -13,86 +8,130 @@ a {
     text-decoration: none;
 }
 
+
 /* ---------------------------------------------- */
+
 
 /* START HEADER */
 
-.header {
-    margin-bottom: 0;
+header .greeting {
+    transform: translateY(75%);
 }
 
-.header .greeting {
-    margin-bottom: 1vh;
-}
-
-.header h3 {
+header h3 {
+    margin-top: 2vh;
     font-weight: 300;
     font-size: 36px;
 }
 
-.header h1 {
-    font-weight: 900;
-    font-size: 64px;
-    margin: 0px;
-}
-
-.header .description {
+header .description {
     font-weight: 400;
     font-size: 24px;
+    margin-bottom: 5vh
 }
 
-.name-box {
-    width: 50%;
-    margin: 0 auto 3vh auto;
-    border: 5px black solid;
-    border-radius: 10px;
+.svg-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(20%);
+    margin: 0 auto;
+    width: 320px;
 }
+
+.shape {
+    stroke-dasharray: 60 640;
+    stroke-dashoffset: -640;
+    stroke-width: 20px;
+    fill: transparent;
+    stroke: rgb(140, 106, 179);
+    border-bottom: 5px solid black;
+    transition: stroke-width 1.5s, stroke-dashoffset 1.5s, stroke-dasharray 1.5s;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    top: -164px;
+    position: relative;
+}
+
 
 /* END HEADER */
 
+
 /* ---------------------------------------------- */
+
 
 /* START LANGUAGES */
 
-.languages {
-    margin: 5vh auto;
+.often {
+    margin-bottom: 2vh;
+}
+
+.familiar {
+    margin-bottom: 5vh;
 }
 
 .languages h2 {
-    font-weight: 700;
-    font-size: 36px;
+    font-weight: 500;
+    font-size: 28px;
 }
 
 .card {
     margin-top: 1vh;
     margin-bottom: 1vh;
-    border: 3px black solid;
-    border-radius: 10px;
-    padding: 25px;
+    padding: 3rem;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2rem;
+    background: #4568DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #B06AB3, #4568DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #B06AB3, #4568DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card .fab {
+    font-size: 3rem;
 }
 
 .card p {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 24px;
+    margin: 0;
 }
+
 
 /* END LANGUAGES */
 
+
 /* ---------------------------------------------- */
+
 
 /* START LINKS */
 
+.links {
+    margin-bottom: 2vh;
+}
+
 .links p {
     font-weight: 400;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 .links .fab {
-    color: black;
+    margin: auto 0.25rem;
 }
 
 .links a {
     color: black;
 }
+
+.links a:hover {
+    color: #B06AB3;
+}
+
 
 /* END LINKS */
