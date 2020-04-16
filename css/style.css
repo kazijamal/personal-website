@@ -1,0 +1,98 @@
+/*
+font weights: 300, 400, 700, 900
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ---------------------------------------------- */
+
+/* START HEADER */
+
+.header {
+    margin-bottom: 0;
+}
+
+.header .greeting {
+    margin-bottom: 1vh;
+}
+
+.header h3 {
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.header h1 {
+    font-weight: 900;
+    font-size: 64px;
+    margin: 0px;
+}
+
+.header .description {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.name-box {
+    width: 50%;
+    margin: 0 auto 3vh auto;
+    border: 5px black solid;
+    border-radius: 10px;
+}
+
+/* END HEADER */
+
+/* ---------------------------------------------- */
+
+/* START LANGUAGES */
+
+.languages {
+    margin: 5vh auto;
+}
+
+.languages h2 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.card {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border: 3px black solid;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.card p {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* END LANGUAGES */
+
+/* ---------------------------------------------- */
+
+/* START LINKS */
+
+.links p {
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.links .fab {
+    color: black;
+}
+
+.links a {
+    color: black;
+}
+
+/* END LINKS */
