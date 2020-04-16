@@ -2,15 +2,31 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/b84f28c846.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
     <title>Kazi Jamal</title>
+    <meta name="description" content="">
+    <meta name="author" content="Kazi Jamal">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b84f28c846.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <header class="header">
+
+    <header class="container header">
         <h3 class="greeting">Hey I'm</h3>
         <div class="name-box">
             <h1 class="name">Kazi <br /> Jamal</h1>
@@ -19,39 +35,43 @@
             <i>design</i>, <i>video editing</i>, and <i>computer building</i>.</p>
     </header>
 
-    <div class="often">
+    <div class="container often">
         <h2>I often use</h2>
-        <div class="card">
-            <i class="fab fa-python"></i>
-            <p>py</p>
-        </div>
-        <div class="card">
-            <i class="fab fa-html5"></i>
-            <p>html</p>
-        </div>
-        <div class="card">
-            <i class="fab fa-css3-alt"></i>
-            <p>css</p>
-        </div>
-        <div class="card">
-            <i class="fab fa-js"></i>
-            <p>js</p>
+        <div class="row">
+            <div class="three columns card">
+                <i class="fab fa-python"></i>
+                <p>py</p>
+            </div>
+            <div class="three columns card">
+                <i class="fab fa-html5"></i>
+                <p>html</p>
+            </div>
+            <div class="three columns card">
+                <i class="fab fa-css3-alt"></i>
+                <p>css</p>
+            </div>
+            <div class="three columns card">
+                <i class="fab fa-js"></i>
+                <p>js</p>
+            </div>
         </div>
     </div>
 
-    <div class="familiar">
+    <div class="container familiar">
         <h2>but am also familiar with</h2>
-        <div class="card">
-            <i class="fab fa-java"></i>
-            <p>java</p>
-        </div>
-        <div class="card">
-            <i class="fab fa-cuttlefish"></i>
-            <p>C</p>
+        <div class="row">
+            <div class="three columns card">
+                <i class="fab fa-java"></i>
+                <p>java</p>
+            </div>
+            <div class="three columns card">
+                <i class="fab fa-cuttlefish"></i>
+                <p>C</p>
+            </div>
         </div>
     </div>
 
-    <div class="links">
+    <div class="container links">
         <p>Check out my
             <a href="https://github.com/kazijamal"><i class="fab fa-github"></i></a>
             and
@@ -60,7 +80,8 @@
         <p>or take a look at my <strong><a href="kazijamal_resume.pdf">resume</a></strong></p>
     </div>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
+
 </body>
 
 </html>
