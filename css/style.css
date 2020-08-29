@@ -1,137 +1,188 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    padding: 0;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
 /* ---------------------------------------------- */
-
 
 /* START HEADER */
 
 header .greeting {
-    transform: translateY(75%);
+  transform: translateY(75%);
 }
 
 header h3 {
-    margin-top: 2vh;
-    font-weight: 300;
-    font-size: 36px;
+  font-weight: 300;
+  font-size: 36px;
 }
 
 header .description {
-    font-weight: 400;
-    font-size: 24px;
-    margin-bottom: 5vh
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 5vh;
 }
 
 .svg-wrapper {
-    position: relative;
-    top: 50%;
-    transform: translateY(20%);
-    margin: 0 auto;
-    width: 320px;
+  position: relative;
+  top: 50%;
+  transform: translateY(20%);
+  margin: 0 auto;
+  width: 320px;
 }
 
 .shape {
-    stroke-dasharray: 60 640;
-    stroke-dashoffset: -640;
-    stroke-width: 20px;
-    fill: transparent;
-    stroke: rgb(140, 106, 179);
-    border-bottom: 5px solid black;
-    transition: stroke-width 1.5s, stroke-dashoffset 1.5s, stroke-dasharray 1.5s;
+  stroke-dasharray: 60 640;
+  stroke-dashoffset: -640;
+  stroke-width: 20px;
+  fill: transparent;
+  stroke: rgb(140, 106, 179);
+  border-bottom: 5px solid black;
+  transition: stroke-width 1.5s, stroke-dashoffset 1.5s, stroke-dasharray 1.5s;
 }
 
 .text {
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 64px;
-    top: -164px;
-    position: relative;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  top: -164px;
+  position: relative;
 }
-
 
 /* END HEADER */
 
-
 /* ---------------------------------------------- */
-
 
 /* START LANGUAGES */
 
 .often {
-    margin-bottom: 2vh;
+  margin-bottom: 2vh;
 }
 
 .familiar {
-    margin-bottom: 5vh;
+  margin-bottom: 2vh;
 }
 
 .languages h2 {
-    font-weight: 500;
-    font-size: 28px;
+  font-weight: 400;
+  font-size: 28px;
 }
 
 .card {
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    padding: 3rem;
-    color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 2rem;
-    background: #4568DC;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #B06AB3, #4568DC);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #B06AB3, #4568DC);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  padding: 3rem;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2rem;
+  background: #4568dc;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #b06ab3, #4568dc);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #b06ab3, #4568dc);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .card .fab {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .card p {
-    font-weight: 400;
-    font-size: 24px;
-    margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
 }
-
 
 /* END LANGUAGES */
 
-
 /* ---------------------------------------------- */
 
+/* START PROJECTS */
+
+.projects {
+  margin-bottom: 5vh;
+}
+
+.projects h2 {
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.project {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  padding: 3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2rem;
+  position: relative;
+  background: white;
+  background-clip: padding-box;
+  border: solid 5px transparent;
+  border-radius: 1em;
+}
+
+.project:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -5px;
+  border-radius: inherit;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#b06ab3),
+    to(#4568dc)
+  );
+  background: linear-gradient(to top, #b06ab3, #4568dc);
+}
+
+.project p {
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+}
+
+.project .description {
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* END PROJECTS */
+
+/* ---------------------------------------------- */
 
 /* START LINKS */
 
 .links {
-    margin-bottom: 2vh;
+  margin-bottom: 2vh;
 }
 
 .links p {
-    font-weight: 400;
-    font-size: 24px;
+  font-weight: 400;
+  font-size: 24px;
 }
 
 .links .fab {
-    margin: auto 0.25rem;
+  margin: auto 0.25rem;
 }
 
 .links a {
-    color: black;
+  color: black;
 }
 
 .links a:hover {
-    color: #B06AB3;
+  color: #b06ab3;
 }
-
 
 /* END LINKS */
