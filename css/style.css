@@ -85,6 +85,7 @@ header .description {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #b06ab3, #4568dc);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition: 0.2s;
 }
 
 .card .fab {
@@ -95,6 +96,10 @@ header .description {
   font-weight: 400;
   font-size: 24px;
   margin: 0;
+}
+
+.card:hover {
+  transform: translateY(-1rem);
 }
 
 /* END LANGUAGES */
