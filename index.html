@@ -1,232 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=UA-175294226-1"
-        ></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag("js", new Date());
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-175294226-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-            gtag("config", "UA-175294226-1");
-        </script>
+      gtag("config", "UA-175294226-1");
+    </script>
 
-        <!-- Basic Page Needs
+    <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <meta charset="utf-8" />
-        <title>Kazi Jamal</title>
-        <meta
-            name="description"
-            content="Kazi Jamal is a programmer and student at Stony Brook University that also loves graphic design, video editing, and computer building."
-        />
-        <meta name="author" content="Kazi Jamal" />
+    <meta charset="utf-8" />
+    <title>Kazi Jamal</title>
+    <meta
+      name="description"
+      content="Kazi Jamal is a first year computer science student at Stony Brook University that
+      also loves graphic design, video editing, and computer building."
+    />
+    <meta name="author" content="Kazi Jamal" />
 
-        <!-- Mobile Specific Metas
+    <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <!-- Fonts
+    <!-- Fonts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
-            rel="stylesheet"
-        />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- CSS
+    <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <link rel="stylesheet" href="css/normalize.css" />
-        <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/skeleton.css" />
 
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <script
-            src="https://kit.fontawesome.com/b84f28c846.js"
-            crossorigin="anonymous"
-        ></script>
-    </head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/b84f28c846.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-    <body>
-        <header class="container no-select">
-            <h3 class="greeting">Hey, I'm</h3>
-            <div class="svg-wrapper">
-                <svg
-                    height="180"
-                    width="320"
-                    xmlns="http://www.w3.org/2000/svg"
-                >
-                    <rect class="shape" id="shape" height="180" width="320" />
-                    <div class="text">
-                        Kazi
-                        <br />
-                        Jamal
-                    </div>
-                </svg>
-            </div>
+  <body>
+    <header class="container no-select">
+      <h3 class="greeting">Hey, I'm</h3>
+      <div class="svg-wrapper">
+        <svg height="180" width="320" xmlns="http://www.w3.org/2000/svg">
+          <rect class="shape" id="shape" height="180" width="320" />
+          <div class="text">
+            Kazi
+            <br />
+            Jamal
+          </div>
+        </svg>
+      </div>
+      <p class="description">
+        I am a first year computer science student at Stony Brook University
+        that also loves graphic design, video editing, and computer building.
+      </p>
+    </header>
+
+    <section class="often no-select">
+      <div class="container languages">
+        <h2>I often use</h2>
+        <div class="row">
+          <div class="three columns card">
+            <i class="fab fa-python"></i>
+            <p>py</p>
+          </div>
+          <div class="three columns card">
+            <i class="fab fa-html5"></i>
+            <p>html</p>
+          </div>
+          <div class="three columns card">
+            <i class="fab fa-css3-alt"></i>
+            <p>css</p>
+          </div>
+          <div class="three columns card">
+            <i class="fab fa-js"></i>
+            <p>js</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="familiar no-select">
+      <div class="container languages">
+        <h2>but am also familiar with</h2>
+        <div class="row">
+          <div class="three columns offset-by-three card">
+            <i class="fab fa-java"></i>
+            <p>java</p>
+          </div>
+          <div class="three columns card">
+            <i class="fab fa-cuttlefish"></i>
+            <p>C</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects no-select">
+      <div class="container">
+        <h2 class>Here are some projects I've been working on recently</h2>
+        <div class="row">
+          <div class="six columns project">
+            <p>Resourceful</p>
             <p class="description">
-                I am a <strong>programmer</strong> and
-                <strong>student</strong> at Stony Brook University that also
-                loves graphic design, video editing, and computer building.
+              A web application created to help people find the best resources
+              to learn any topic and won Best UI/UX (Aurora Hack) at SBUHacks
+              2020
             </p>
-        </header>
+            <p class="description">
+              Built with Node.js, Express.js, Mongoose, and MongoDB
+            </p>
+            <a class="button" href="https://resourceful-solon.herokuapp.com/"
+              >Live Website</a
+            >
+            <br />
+            <a class="button" href="https://github.com/SolonEDU/resourceful"
+              >GitHub Repository</a
+            >
+          </div>
+          <div class="six columns project">
+            <p>Devofam</p>
+            <p class="description">
+              A web application for developers to build connections with others,
+              collaborate on projects, and develop their skills
+            </p>
+            <p class="description">
+              Built with React, TypeScript, Node.js, Express.js, Sequelize, and
+              PostgreSQL
+            </p>
+            <a class="button" href="https://devofam.com">Live Website</a>
+            <br />
+            <a class="button" href="https://github.com/devofam"
+              >GitHub Organization</a
+            >
+          </div>
+        </div>
+        <div class="row">
+          <div class="six columns project">
+            <p>Solon</p>
+            <p class="description">
+              A mobile application and administrator web application with the
+              purpose of increasing parent engagement and facilitating
+              communication with faculty
+            </p>
+            <p class="description">
+              Built with Flutter, Node.js, Express.js, Sequelize, and PostgreSQL
+            </p>
+            <a class="button" href="https://www.youtube.com/watch?v=BqlMdw6bGE0"
+              >Video Demo</a
+            >
+            <br />
+            <a class="button" href="https://github.com/solonedu"
+              >GitHub Organization</a
+            >
+          </div>
+          <div class="six columns project">
+            <p>Wall of Thanks</p>
+            <p class="description">
+              A web application created to give people a platform for expressing
+              gratitude and thankfulness during the time of the COVID-19
+              pandemic
+            </p>
+            <p class="description">
+              Built with Node.js, Express.js, Mongoose, and MongoDB
+            </p>
+            <a class="button" href="https://thewallofthanks.com"
+              >Live Website</a
+            >
+            <br />
+            <a class="button" href="https://github.com/ahmedksultan/covidthx"
+              >GitHub Repository</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section class="often no-select">
-            <div class="container languages">
-                <h2>I often use</h2>
-                <div class="row">
-                    <div class="three columns card">
-                        <i class="fab fa-python"></i>
-                        <p>py</p>
-                    </div>
-                    <div class="three columns card">
-                        <i class="fab fa-html5"></i>
-                        <p>html</p>
-                    </div>
-                    <div class="three columns card">
-                        <i class="fab fa-css3-alt"></i>
-                        <p>css</p>
-                    </div>
-                    <div class="three columns card">
-                        <i class="fab fa-js"></i>
-                        <p>js</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <section class="links no-select">
+      <div class="container">
+        <p>
+          Check out my
+          <a href="https://github.com/kazijamal"
+            ><i class="fab fa-github"></i
+          ></a>
+          and
+          <a href="https://www.linkedin.com/in/kazijamal"
+            ><i class="fab fa-linkedin"></i></a
+          >, <br />
+          or take a look at my
+          <strong><a href="kazijamal_resume.pdf">resume</a></strong>
+        </p>
+      </div>
+    </section>
 
-        <section class="familiar no-select">
-            <div class="container languages">
-                <h2>but am also familiar with</h2>
-                <div class="row">
-                    <div class="three columns offset-by-three card">
-                        <i class="fab fa-java"></i>
-                        <p>java</p>
-                    </div>
-                    <div class="three columns card">
-                        <i class="fab fa-cuttlefish"></i>
-                        <p>C</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="projects no-select">
-            <div class="container">
-                <h2 class>
-                    Here are some projects I've been working on recently
-                </h2>
-                <div class="row">
-                    <div class="six columns project">
-                        <p>Resourceful</p>
-                        <p class="description">
-                            A web application created to help people find the
-                            best resources to learn any topic and won Best UI/UX
-                            (Aurora Hack) at SBUHacks 2020
-                        </p>
-                        <p class="description">
-                            Built with Node.js, Express.js, Mongoose, and
-                            MongoDB
-                        </p>
-                        <a
-                            class="button"
-                            href="https://resourceful-solon.herokuapp.com/"
-                            >Live Website</a
-                        >
-                        <br />
-                        <a
-                            class="button"
-                            href="https://github.com/SolonEDU/resourceful"
-                            >GitHub Repository</a
-                        >
-                    </div>
-                    <div class="six columns project">
-                        <p>Devofam</p>
-                        <p class="description">
-                            A web application for developers to build
-                            connections with others, collaborate on projects,
-                            and develop their skills
-                        </p>
-                        <p class="description">
-                            Built with React, TypeScript, Node.js, Express.js,
-                            Sequelize, and PostgreSQL
-                        </p>
-                        <a class="button" href="https://devofam.com"
-                            >Live Website</a
-                        >
-                        <br />
-                        <a class="button" href="https://github.com/devofam"
-                            >GitHub Organization</a
-                        >
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="six columns project">
-                        <p>Solon</p>
-                        <p class="description">
-                            A mobile application and administrator web
-                            application with the purpose of increasing parent
-                            engagement and facilitating communication with
-                            faculty
-                        </p>
-                        <p class="description">
-                            Built with Flutter, Node.js, Express.js, Sequelize,
-                            and PostgreSQL
-                        </p>
-                        <a
-                            class="button"
-                            href="https://www.youtube.com/watch?v=BqlMdw6bGE0"
-                            >Video Demo</a
-                        >
-                        <br />
-                        <a class="button" href="https://github.com/solonedu"
-                            >GitHub Organization</a
-                        >
-                    </div>
-                    <div class="six columns project">
-                        <p>Wall of Thanks</p>
-                        <p class="description">
-                            A web application created to give people a platform
-                            for expressing gratitude and thankfulness during the
-                            time of the COVID-19 pandemic
-                        </p>
-                        <p class="description">
-                            Built with Node.js, Express.js, Mongoose, and
-                            MongoDB
-                        </p>
-                        <a class="button" href="https://thewallofthanks.com"
-                            >Live Website</a
-                        >
-                        <br />
-                        <a
-                            class="button"
-                            href="https://github.com/ahmedksultan/covidthx"
-                            >GitHub Repository</a
-                        >
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="links no-select">
-            <div class="container">
-                <p>
-                    Check out my
-                    <a href="https://github.com/kazijamal"
-                        ><i class="fab fa-github"></i
-                    ></a>
-                    and
-                    <a href="https://www.linkedin.com/in/kazijamal"
-                        ><i class="fab fa-linkedin"></i></a
-                    >, <br />
-                    or take a look at my
-                    <strong><a href="kazijamal_resume.pdf">resume</a></strong>
-                </p>
-            </div>
-        </section>
-
-        <script src="js/script.js"></script>
-    </body>
+    <script src="js/script.js"></script>
+  </body>
 </html>
